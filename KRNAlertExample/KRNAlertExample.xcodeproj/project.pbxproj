@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4404F3161E6EA44F00E3BE89 /* UIViewController+KRNAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4404F3151E6EA44F00E3BE89 /* UIViewController+KRNAlert.m */; };
 		440AF09F1E6C327A00A51427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AF09E1E6C327A00A51427 /* main.m */; };
 		440AF0A21E6C327A00A51427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AF0A11E6C327A00A51427 /* AppDelegate.m */; };
 		440AF0A51E6C327A00A51427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AF0A41E6C327A00A51427 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4404F3141E6EA44F00E3BE89 /* UIViewController+KRNAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KRNAlert.h"; path = "../../KRNAlert/UIViewController+KRNAlert.h"; sourceTree = "<group>"; };
+		4404F3151E6EA44F00E3BE89 /* UIViewController+KRNAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KRNAlert.m"; path = "../../KRNAlert/UIViewController+KRNAlert.m"; sourceTree = "<group>"; };
 		440AF09A1E6C327A00A51427 /* KRNAlertExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRNAlertExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440AF09E1E6C327A00A51427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		440AF0A01E6C327A00A51427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 		440AF09C1E6C327A00A51427 /* KRNAlertExample */ = {
 			isa = PBXGroup;
 			children = (
+				4404F3141E6EA44F00E3BE89 /* UIViewController+KRNAlert.h */,
+				4404F3151E6EA44F00E3BE89 /* UIViewController+KRNAlert.m */,
 				440AF0BD1E6C508B00A51427 /* KRNAlert.m */,
 				440AF0BE1E6C508B00A51427 /* KRNAlert.h */,
 				440AF0A01E6C327A00A51427 /* AppDelegate.h */,
@@ -157,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440AF0BF1E6C508B00A51427 /* KRNAlert.m in Sources */,
+				4404F3161E6EA44F00E3BE89 /* UIViewController+KRNAlert.m in Sources */,
 				440AF0A51E6C327A00A51427 /* ViewController.m in Sources */,
 				440AF0A21E6C327A00A51427 /* AppDelegate.m in Sources */,
 				440AF09F1E6C327A00A51427 /* main.m in Sources */,
