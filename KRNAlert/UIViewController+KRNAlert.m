@@ -43,16 +43,16 @@
 
 #pragma mark - Action Sheet
 
-- (void)actionSheetFrom:(UIViewController *)viewController withTitle:(NSString *)title message:(NSString *)message firstButtonTitle:(NSString *)firstButtonTitle firstButtonCompletion:(void(^)(void))firstButtonCompletion secondButtonTitle:(NSString *)secondButtonTitle secondButtonCompletion:(void(^)(void))secondButtonCompletion {
+- (void)actionSheetWithTitle:(NSString *)title message:(NSString *)message firstButtonTitle:(NSString *)firstButtonTitle firstButtonCompletion:(void(^)(void))firstButtonCompletion secondButtonTitle:(NSString *)secondButtonTitle secondButtonCompletion:(void(^)(void))secondButtonCompletion {
     [KRNAlert actionSheetFrom:self withTitle:title message:message firstButtonTitle:firstButtonTitle firstButtonCompletion:firstButtonCompletion secondButtonTitle:secondButtonTitle secondButtonCompletion:secondButtonCompletion];
 }
 
-- (void)actionSheetFrom:(UIViewController *)viewController pickPhotofromGallery:(void(^)(void))galleryCompletion andCamera:(void(^)(void))cameraCompletion {
+- (void)actionSheetPickPhotoFromGallery:(void(^)(void))galleryCompletion andCamera:(void(^)(void))cameraCompletion {
     [KRNAlert actionSheetFrom:self pickPhotofromGallery:galleryCompletion andCamera:cameraCompletion];
 }
 
-- (void)actionSheetFrom:(UIViewController *)viewController withTitle:(NSString *)title message:(NSString *)message andActions:(NSArray<UIAlertAction *> *)actions {
-    [KRNAlert actionSheetFrom:viewController withTitle:title message:message andActions:actions];
+- (void)actionSheetWithTitle:(NSString *)title message:(NSString *)message andActions:(NSArray<UIAlertAction *> *)actions {
+    [KRNAlert actionSheetFrom:self withTitle:title message:message andActions:actions];
 }
 
 @end

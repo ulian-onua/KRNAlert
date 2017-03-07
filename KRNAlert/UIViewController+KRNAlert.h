@@ -32,12 +32,12 @@
 
 - (void)alertOKCancelWithTitle:(NSString *)title message:(NSString *)message textFieldPlaceholder:(NSString *)textFieldPlaceholder textFieldText:(NSString *)textFieldText secureEntry:(BOOL)secureEntry completion:(void(^)(NSString *textFieldString))completion;
 
-#pragma mark - Helpers
+#pragma mark - Action Sheet
 
-- (void)actionSheetFrom:(UIViewController *)viewController withTitle:(NSString *)title message:(NSString *)message firstButtonTitle:(NSString *)firstButtonTitle firstButtonCompletion:(void(^)(void))firstButtonCompletion secondButtonTitle:(NSString *)secondButtonTitle secondButtonCompletion:(void(^)(void))secondButtonCompletion;
+- (void)actionSheetWithTitle:(NSString *)title message:(NSString *)message firstButtonTitle:(NSString *)firstButtonTitle firstButtonCompletion:(void(^)(void))firstButtonCompletion secondButtonTitle:(NSString *)secondButtonTitle secondButtonCompletion:(void(^)(void))secondButtonCompletion;
 
-- (void)actionSheetFrom:(UIViewController *)viewController pickPhotofromGallery:(void(^)(void))galleryCompletion andCamera:(void(^)(void))cameraCompletion;
+- (void)actionSheetPickPhotoFromGallery:(void(^)(void))galleryCompletion andCamera:(void(^)(void))cameraCompletion;
 
-- (void)actionSheetFrom:(UIViewController *)viewController withTitle:(NSString *)title message:(NSString *)message andActions:(NSArray<UIAlertAction *> *)actions;
+- (void)actionSheetWithTitle:(NSString *)title message:(NSString *)message andActions:(NSArray<UIAlertAction *> *)actions;
 
 @end
